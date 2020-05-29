@@ -1,0 +1,36 @@
+{
+  "name": "devincubatortask2",
+  "version": "1.0.0",
+  "description": "js bootstrap html todolist",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "deplot": "gh-pages -d dist"
+  },
+  "keywords": [
+    "pure",
+    "js"
+  ],
+  "author": "IvBut",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "homepage": "https://IvBut.github.io/tasktracker",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.5.0",
+    "gh-pages": "^2.2.0",
+    "uuid": "^8.1.0"
+  }
+}
